@@ -1,0 +1,10 @@
+{;; Normally wouldn’t have to specify :paths because the default is ["src" "test"]
+ ;; but this helps work around https://dev.clojure.org/jira/browse/TDEPS-52
+ :paths ["src"]
+
+ :deps
+ {org.clojure/clojure          {:mvn/version "1.7.0"}
+  org.clojure/tools.namespace  {:mvn/version "0.2.11"}
+  progrock                     {:mvn/version "0.1.2"}
+  io.aviso/pretty              {:mvn/version "0.1.34"}
+  mvxcvi/puget                 {:mvn/version "1.0.3"}}}
